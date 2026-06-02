@@ -149,6 +149,9 @@ flowchart LR
 원본 데이터 중 `rent_all.csv`는 용량 문제로 GitHub에 포함하지 않았다.
 전처리 완료 데이터는 `data/processed/` 폴더에 정리했다.
 
+모델링 이후 생성된 결과 파일은 `outputs/tables/`에 저장했으며,
+발표자료에 사용한 요약 표와 그래프용 데이터는 `outputs/presentation_tables/`에 정리했다.
+
 ---
 
 ## 07. 프로젝트 구조
@@ -171,6 +174,7 @@ RealEstate-Risk-Radar/
 │   ├── 04_feature_engineering.ipynb
 │   ├── 05_modeling.ipynb
 │   └── 06_model_result_visualization.ipynb
+    └── 07_presentation_tables.ipynb
 │
 ├── outputs/
 │   ├── figures/
@@ -193,7 +197,7 @@ RealEstate-Risk-Radar/
 | `04_feature_engineering.ipynb`        | 전세가율, 괴리율, 상승률 차이, 월세화 지표, 위험 지수 생성 | `modeling_dataset.csv` 생성 |
 | `05_modeling.ipynb`                   | K-Means, 로지스틱 회귀, 랜덤 포레스트 적용        | 모델 성능표, 변수 중요도, 군집 요약 생성  |
 | `06_model_result_visualization.ipynb` | 모델링 결과 시각화                          | 발표 및 보고서용 그래프 생성          |
-
+| `07_presentation_tables.ipynb` | 발표자료에 사용할 관점별 위험 점수 표와 Top 10 그래프 정리 | 발표용 표·그래프 생성 |
 ---
 
 ## 09. 전처리 과정
@@ -373,6 +377,7 @@ K-Means 군집화 결과, 지역·월 데이터가 평균 위험 점수에 따�
 3. notebooks/04_feature_engineering.ipynb
 4. notebooks/05_modeling.ipynb
 5. notebooks/06_model_result_visualization.ipynb
+6. notebooks/07_presentation_tables.ipynb
 ```
 
 단, 원본 데이터 중 rent_all.csv는 용량이 너무 커 GitHub에 포함하지 않으므로 `03_preprocessing.ipynb`를 실행하려면 아래 파일을 `data/raw/` 폴더에 배치해야 한다.
@@ -475,3 +480,7 @@ https://news.einfomax.co.kr/news/articleView.html?idxno=4391284
 
 * KB국민은행, 「KB주택시장 리뷰 2025년 10월호 - 전월세 거래」, KB의 생각, 2025.10.16, (접속일자 2026.05.21), URL
 https://kbthink.com/realestate/insights/research/251016-5.html
+
+* 함철민, 「이 대통령 "부동산 시장, 폭탄돌리기 하는 거 아닌가... 나라가 망할 일"」, 인사이트, 2025.10.14.
+URL(접속일자: 2026.05.21)
+https://www.insight.co.kr/news/524108
