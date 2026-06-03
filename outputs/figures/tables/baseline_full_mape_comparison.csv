@@ -1,0 +1,4 @@
+﻿model,Baseline,Full
+Linear Regression,6.72,8.88
+Decision Tree Regressor,9.23,8.62
+Random Forest Regressor,5.01,4.78

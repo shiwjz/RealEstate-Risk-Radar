@@ -1,0 +1,4 @@
+﻿model,MAE(만원),RMSE(만원),R2,MAPE(%)
+Linear Regression,10436.6,12780.7,0.9467,8.88
+Decision Tree Regressor,11632.8,19157.1,0.8802,8.62
+Random Forest Regressor,6371.9,10243.4,0.9657,4.78
