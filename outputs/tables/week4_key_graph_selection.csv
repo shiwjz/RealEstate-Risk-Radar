@@ -1,7 +1,0 @@
-﻿priority,figure_file,purpose,use_in_presentation
-1,latest_top10_region_risk_score.png,최신 월 기준 위험 지역 Top 10 제시,핵심
-2,kmeans_avg_risk_score.png,K-Means 군집별 위험 수준 비교,핵심
-3,feature_importance.png,위험 분류에 중요한 변수 설명,핵심
-4,model_comparison_metrics.png,분류 모델 성능 비교,핵심
-5,latest_risk_grade_distribution.png,25개 자치구 위험 등급 분포 요약,보조
-6,kmeans_cluster_sample_count.png,군집별 표본 분포 확인,보조

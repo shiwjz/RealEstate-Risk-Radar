@@ -1,0 +1,7 @@
+﻿feature_set,model,MAE(만원),RMSE(만원),R2,MAPE(%)
+Baseline,Linear Regression,8342.8,10904.7,0.9612,6.72
+Baseline,Decision Tree Regressor,12746.9,19695.7,0.8733,9.23
+Baseline,Random Forest Regressor,6558.2,9578.4,0.97,5.01
+Full,Linear Regression,10436.6,12780.7,0.9467,8.88
+Full,Decision Tree Regressor,11632.8,19157.1,0.8802,8.62
+Full,Random Forest Regressor,6371.9,10243.4,0.9657,4.78

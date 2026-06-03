@@ -1,9 +1,0 @@
-﻿feature,feature_label,importance
-sale_growth_1m,매매가 상승률,0.32828789228996436
-growth_gap_1m,매매-전세 상승률 차이,0.18642372973942822
-jeonse_rate,전세가율,0.15274653459518509
-gap_rate,매매-전세 괴리율,0.14971226647964558
-monthly_ratio,월세 거래 비중,0.05925167794345993
-sale_volume_growth_1m,매매 거래량 증가율,0.05112511343270742
-jeonse_growth_1m,전세가 상승률,0.04171413919472876
-rent_volume_growth_1m,전월세 거래량 증가율,0.03073864632488071
